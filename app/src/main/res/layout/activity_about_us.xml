@@ -8,32 +8,41 @@
     android:background="@color/beige"
     tools:context=".view.MainActivity">
 
-    <androidx.appcompat.widget.AppCompatImageView
-        android:layout_width="400dp"
-        android:layout_marginTop="50dp"
-        android:layout_height="100dp"
-        android:src="@drawable/ic_moon"
-        />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="2000dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="-800dp"
+        android:layout_height="180dp"
+        app:srcCompat="@drawable/ic_coffee" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/system"
-        android:gravity="center"
+        android:text="@string/aboutus"
         android:textStyle="bold"
         android:background="@color/offWhite"
-        android:textAlignment="center"
+        android:gravity="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:layout_marginTop="16dp"
         />
 
     <ListView
-        android:id="@+id/menuList"
+        android:id="@+id/aboutUs"
         android:background="@color/offWhite"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
         android:layout_margin="16dp"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:background="@color/offWhite"
+        android:text="@string/aboutusText"
+         />
 
 </androidx.appcompat.widget.LinearLayoutCompat>
