@@ -30,5 +30,10 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             Intent intent = new Intent(this, AboutUs.class);
             startActivity(intent);
         }
+
+        if (position == 2) {
+            Intent intent = new Intent(this, DiscountCoupom.class);
+            startActivity(intent);
+        }
     }
 }
