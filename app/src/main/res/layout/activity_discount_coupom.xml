@@ -29,8 +29,25 @@
         android:layout_marginTop="16dp"
         />
 
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/emailInsert" />
 
+    <EditText
+        android:id="@+id/editTextEmailAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
 
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/redeemCoupom"
+        android:onClick="redeemCoupom"/>
 
 
 </androidx.appcompat.widget.LinearLayoutCompat>
