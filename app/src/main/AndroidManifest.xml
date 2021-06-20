@@ -12,6 +12,9 @@
         <activity android:name=".view.AboutUs" />
         <activity android:name=".view.DiscountCoupom" />
         <activity android:name=".view.TableReservation" />
+        <activity android:name=".view.PhotoGallery" />
+        <activity android:name=".view.VipList" />
+        <activity android:name=".view.OurProducts" />
         <activity android:name=".view.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

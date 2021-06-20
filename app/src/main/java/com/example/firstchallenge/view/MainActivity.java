@@ -40,5 +40,10 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             Intent intent = new Intent(this, TableReservation.class);
             startActivity(intent);
         }
+
+        if (position == 4) {
+            Intent intent = new Intent(this, VipList.class);
+            startActivity(intent);
+        }
     }
 }
