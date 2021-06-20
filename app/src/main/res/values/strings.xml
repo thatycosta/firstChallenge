@@ -11,7 +11,10 @@ A Moonbucks garante que tudo o que faz é para honrar essa conexão - desde seu 
     <string name="viplist">Lista VIP</string>
     <string name="photogallery">Galeria de Fotos</string>
     <string name="emailInsert">Insira seu email</string>
+    <string name="nameInsert">Insira seu nome</string>
     <string name="redeemCoupom">Resgatar Cupom</string>
+    <string name="tableReservation">Reservar Mesa</string>
+    <string name="reservation">Reservar</string>
     <string-array name="menu">
         <item>@string/aboutus</item>
         <item>@string/ourproducts</item>
@@ -19,5 +22,13 @@ A Moonbucks garante que tudo o que faz é para honrar essa conexão - desde seu 
         <item>@string/tablereservation</item>
         <item>@string/viplist</item>
         <item>@string/photogallery</item>
+    </string-array>
+    <string-array name="tables">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
     </string-array>
 </resources>

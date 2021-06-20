@@ -11,6 +11,7 @@
         android:theme="@style/Theme.FirstChallenge" >
         <activity android:name=".view.AboutUs" />
         <activity android:name=".view.DiscountCoupom" />
+        <activity android:name=".view.TableReservation" />
         <activity android:name=".view.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
