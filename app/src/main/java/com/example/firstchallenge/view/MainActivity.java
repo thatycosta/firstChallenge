@@ -32,6 +32,11 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         }
 
         if (position == 2) {
+            Intent intent = new Intent(this, OurProducts.class);
+            startActivity(intent);
+        }
+
+        if (position == 2) {
             Intent intent = new Intent(this, DiscountCoupom.class);
             startActivity(intent);
         }
@@ -43,6 +48,11 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
         if (position == 4) {
             Intent intent = new Intent(this, VipList.class);
+            startActivity(intent);
+        }
+
+        if (position == 5) {
+            Intent intent = new Intent(this, PhotoGallery.class);
             startActivity(intent);
         }
     }
