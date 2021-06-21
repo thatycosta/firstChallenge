@@ -13,7 +13,7 @@
         android:layout_width="400dp"
         android:layout_marginTop="10dp"
         android:layout_height="100dp"
-        app:srcCompat="@drawable/ic_moon" />
+        app:srcCompat="@drawable/ic_moonbucks_logo_2" />
 
     <TextView
         android:id="@+id/textView"

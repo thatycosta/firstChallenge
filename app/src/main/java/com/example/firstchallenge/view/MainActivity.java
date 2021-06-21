@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             startActivity(intent);
         }
 
-        if (position == 2) {
+        if (position == 1) {
             Intent intent = new Intent(this, OurProducts.class);
             startActivity(intent);
         }

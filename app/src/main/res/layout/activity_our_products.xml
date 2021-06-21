@@ -6,34 +6,32 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/beige"
-    tools:context=".view.MainActivity">
+    tools:context=".view.OurProducts">
 
-    <androidx.appcompat.widget.AppCompatImageView
+
+    <ImageView
+        android:id="@+id/imageView"
         android:layout_width="400dp"
         android:layout_marginTop="10dp"
         android:layout_height="200dp"
-        android:src="@drawable/ic_moonbucks_logo_2"
-        />
+        app:srcCompat="@drawable/ic_moonbucks_logo_2" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/system"
-        android:gravity="center"
+        android:text="@string/ourproducts"
         android:textStyle="bold"
         android:background="@color/offWhite"
-        android:textAlignment="center"
+        android:gravity="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:layout_marginTop="16dp"
         />
 
     <ListView
-        android:id="@+id/menuList"
-        android:background="@color/offWhite"
+        android:id="@+id/listCoffee"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:layout_margin="16dp"/>
-
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        />
 </androidx.appcompat.widget.LinearLayoutCompat>
